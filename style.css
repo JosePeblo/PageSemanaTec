@@ -9,6 +9,9 @@
     font-weight: bold;
 }
 
+* {
+    font-family: 'Sarpanch', sans-serif;
+}
 .menu {
     list-style-type: none;
     margin: 0px;
@@ -23,8 +26,6 @@
   
   .menulititle {
     float: right;
-    font-family: 'Sarpanch', sans-serif;
-    text-decoration: none;
     display: block;
     color: black;
     font-size: 60px;
@@ -80,6 +81,13 @@
     font-style: 'Sarpach';
 }
 
+a:link {
+  color: #000;
+}
+
+a:visited {
+  color: #000;
+}
 
 .card-head {
     height: 30%;
